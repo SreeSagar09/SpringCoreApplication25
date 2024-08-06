@@ -1,0 +1,60 @@
+A Program to demonstrate the use of @Lazy annotation:
+Programs:
+* Delhivery.java
+* ECommerSeller.java
+* Ekart.java
+* ExchangeTerms.java
+* OfflinePayment.java
+* OnlinePayment.java
+* Payment.java
+* Product.java
+* ReturnTerms.java
+* Seller.java
+* Shipment.java
+* AppConfig1.java
+* AppConfig2.java
+Note:
+* @Lazy annotation is use to initialize the bean lazily.
+* @Lazy annotation can be used at class, method, constructor, parameter and field level.
+* @Lazy annotation has value attribute it accept boolean value, it's default value is true.
+Output:
+Return with in: 15(Days)
+Payment is initialized: OfflinePayment
+Product is initialized: Mi-Y2
+Product is initialized: Samsung-Galaxy
+ECommerSeller is initialized: Myntra
+Number of Beans: 21
+----------- Beans Names -----------
+org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+org.springframework.context.annotation.internalCommonAnnotationProcessor
+org.springframework.context.event.internalEventListenerProcessor
+org.springframework.context.event.internalEventListenerFactory
+appConfig1
+appConfig2
+delhivery
+ekart
+exchangeTerms
+offlinePayment
+onlinePayment
+returnTerms
+seller
+iphone
+mi
+samsung
+oneplus
+amazon
+flipkart
+myntra
+Product is initialized: Iphone-15Pro
+Product [productName=Iphone-15Pro, quantity=12, price=75000.0, vendor=Applie]
+Product is initialized: OnePlus-N21
+Product [productName=OnePlus-N21, quantity=9, price=65000.0, vendor=OnePlus]
+ECommerSeller is initialized: Amazon
+ECommerSeller [sellerName=Amazon, rating=4.5]
+Payment is initialized: OnlinePayment
+Payment is: Online
+Shipment is Initialized: Delhivery
+Shipment Agent is: Delhivery
+Exchange with in: 1(Days)
+
