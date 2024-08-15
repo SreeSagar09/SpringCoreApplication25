@@ -7,6 +7,7 @@ import com.app.ECommerSeller;
 import com.app.ExchangeTerms;
 import com.app.Payment;
 import com.app.Product;
+import com.app.SellerTypeDetails;
 import com.app.Shipment;
 import com.app.config.AppConfig1;
 import com.app.config.AppConfig2;
@@ -39,6 +40,8 @@ public class Test {
 		shipment.shipmentAgent();
 		
 		ExchangeTerms exchangeTerms = (ExchangeTerms) applicationContext.getBean("exchangeTerms");
+		
+		SellerTypeDetails sellerTypeDetails = (SellerTypeDetails) applicationContext.getBean("sellerTypeDetails");
 		
 	}
 }
